@@ -1,5 +1,19 @@
 {
     "require": {
         "edmondscommerce/phpqa": "^3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "EdmondsCommerce\\SamTrainingXML\\": [
+                "src"
+            ]
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "EdmondsCommerce\\SamTrainingXML\\Tests\\": [
+                "tests"
+            ]
+        }
     }
 }
