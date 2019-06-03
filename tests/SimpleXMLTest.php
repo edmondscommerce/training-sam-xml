@@ -1,7 +1,7 @@
 <?php declare(strict_types=1);
 
 
-namespace EdmondsCommerce\SamTrainingXML\Tests\Reddit;
+namespace EdmondsCommerce\SamTrainingXML\Tests;
 
 use EdmondsCommerce\SamTrainingXML\Reddit\SimpleXML;
 use PHPUnit\Framework\TestCase;
@@ -27,7 +27,9 @@ class SimpleXMLTest extends TestCase
     public function itReturnsAnXMLString(): void
     {
 
-        $expected = '';
+        $expected = '<?xml version="1.0" encoding="UTF-8"?>
+<root/>
+';
         $actual = $this->simpleXML->getXML();
         self::assertSame($expected, $actual);
     }
