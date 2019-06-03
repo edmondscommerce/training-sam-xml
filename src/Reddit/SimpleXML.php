@@ -12,7 +12,7 @@ class SimpleXML
 
     public function getXML(): string
     {
-        return $this->getSimpleXMLObject()->asXML();
+        return (string)$this->getSimpleXMLObject()->asXML();
     }
 
     private function getSimpleXMLObject(): SimpleXMLElement

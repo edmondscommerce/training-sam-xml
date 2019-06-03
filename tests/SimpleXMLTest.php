@@ -1,7 +1,7 @@
 <?php declare(strict_types=1);
 
 
-namespace EdmondsCommerce\SamTrainingXML\Tests\Reddit;
+namespace EdmondsCommerce\SamTrainingXML\Tests;
 
 use EdmondsCommerce\SamTrainingXML\Reddit\SimpleXML;
 use PHPUnit\Framework\TestCase;

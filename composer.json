@@ -3,6 +3,11 @@
         "edmondscommerce/phpqa": "^3.0",
         "ext-simplexml": "*"
     },
+    "require-dev": {
+        "edmondscommerce/phpqa": "^3.0",
+        "mockery/mockery": "^1.2",
+        "phpstan/phpstan-mockery": "^0.11.1"
+    },
     "autoload": {
         "psr-4": {
             "EdmondsCommerce\\SamTrainingXML\\": [
@@ -16,5 +21,8 @@
                 "tests"
             ]
         }
+    },
+    "config": {
+        "bin-dir": "bin"
     }
 }
