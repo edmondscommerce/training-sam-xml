@@ -1,0 +1,5 @@
+{
+    "require": {
+        "edmondscommerce/phpqa": "^3.0"
+    }
+}
