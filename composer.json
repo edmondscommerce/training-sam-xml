@@ -1,6 +1,7 @@
 {
     "require": {
-        "edmondscommerce/phpqa": "^3.0"
+        "edmondscommerce/phpqa": "^3.0",
+        "ext-simplexml": "*"
     },
     "autoload": {
         "psr-4": {

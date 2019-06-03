@@ -27,7 +27,9 @@ class SimpleXMLTest extends TestCase
     public function itReturnsAnXMLString(): void
     {
 
-        $expected = '';
+        $expected = '<?xml version="1.0" encoding="UTF-8"?>
+<root/>
+';
         $actual = $this->simpleXML->getXML();
         self::assertSame($expected, $actual);
     }
